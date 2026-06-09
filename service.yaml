@@ -1,0 +1,8 @@
+# Demo service config
+company: NimbleOps Cloud
+industry: saas
+service: workflow-runtime
+risk_controls:
+  - change approval
+  - audit trail
+  - secure code review
