@@ -1,0 +1,13 @@
+name: Demo Security Gate
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  policy-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Demo policy check
+        run: echo "CognitivTrust demo policy check passed"
